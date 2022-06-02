@@ -31,6 +31,6 @@ def make_polinom(n):
 n = int(input("Задайте степень n: "))
 polinom_str = make_polinom(n)
 print(polinom_str)
-file_name = 'polinom.txt'
+file_name = 'polinom2.txt'
 with open(file_name, 'w') as f:
     print(polinom_str, file=f)
